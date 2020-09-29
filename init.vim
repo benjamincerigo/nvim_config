@@ -19,6 +19,10 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " ------ ALE -----
 Plug 'dense-analysis/ale'
 
+" ---- FZF ----
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 " ------ COLOUR ----
 Plug 'wadackel/vim-dogrun'
 call plug#end()
@@ -100,6 +104,10 @@ call deoplete#custom#option('sources', {
 " ]s, z=, zg are the commands that you need.
 " Open the list of added words
 nnoremap <leader>z :vsp ~/.config/nvim/spell/en.utf-8.add<CR>
+
+
+" ---- FZF ----
+nnoremap <leader>p :Files<CR>
 
 " ----- COLOURS CONFIGURATION ---- "
 colorscheme dogrun
