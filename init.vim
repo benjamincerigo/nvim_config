@@ -1,18 +1,7 @@
-let mapleader="\<Space>"
-" key set up
-set tabstop=2 shiftwidth=2
-set softtabstop=2
-set expandtab
-set bs=indent,eol,start
-set autoindent
-set ffs=unix,mac,dos
-set number
-set spell spelllang=en_gb
-let g:LargeFile=10
-filetype plugin indent on
-
-
 call plug#begin('~/.config/nvim/plugged')
+" --- NERDCommenter ---- 
+Plug 'preservim/nerdcommenter'
+
 " --- Deoplete ---"
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
