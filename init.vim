@@ -20,6 +20,13 @@ Plug 'wadackel/vim-dogrun'
 
 " ------ Git commands ---
 Plug 'tpope/vim-fugitive'
+
+" ------ JS -------
+"  From blog: https://www.vimfromscratch.com/articles/vim-for-javascript-and-react-in-2019/
+Plug 'othree/yajs.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+
 call plug#end()
 
 " ----- Important ----
