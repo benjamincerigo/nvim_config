@@ -1,3 +1,5 @@
+" ----- PLUG useage ----
+" :PlugInstall to install after reload
 call plug#begin('~/.config/nvim/plugged')
 " --- NERDCommenter ---- 
 Plug 'preservim/nerdcommenter'
