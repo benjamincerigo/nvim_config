@@ -43,6 +43,8 @@ set number
 set spell spelllang=en_gb
 let g:LargeFile=10
 filetype plugin indent on
+" Needed for gatsby reload
+set backupcopy=yes
 
 " -------------------- Explorer Configurations ------"
 " Make new panes open below and right, instead of above and left
